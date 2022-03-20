@@ -7,6 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
+/* header and navigation bar style */
 
 .header {
     padding: 20px;
@@ -40,16 +41,16 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
-a {
+/* Navigation text color*/
+nav a {
     color: #ffffff;
     text-decoration: none;
 }
-
-p {
+/*content and sidebar font size*/ 
+content aside p {
     font-size: 16px;
 }
-
+/* hero and content and sidebar  style*/
 .hero {
     height: 800px;
     width: 100%;
@@ -74,7 +75,6 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -187,7 +187,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* footer style */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +195,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h3 {
     font-size: 20px;
 }
